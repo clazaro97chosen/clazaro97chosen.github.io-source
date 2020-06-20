@@ -1,4 +1,4 @@
- #!/usr/bin/env python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
@@ -54,7 +54,7 @@ IGNORE_FILES = [".ipynb_checkpoints"]
 
 
 # Appearance
-THEME = "pelican-aegis-jupyter-theme" 
+THEME = "pelican-aegis-jupyter-theme"
 DEFAULT_PAGINATION = False
 
 # Defaults
@@ -74,7 +74,7 @@ PAGE_SAVE_AS = "{slug}.html"
 # CLAIM_BING = ""
 
 STATIC_PATHS = ["figures", "images", "downloads"]
-DIRECT_TEMPLATES = ("index", "archives", "search", "404", "about")
+DIRECT_TEMPLATES = ("index", "archives", "search", "404", "about", "projects", "reads")
 AUTHOR_SAVE_AS = ""
 USE_SHORTCUT_ICONS = True
 
@@ -104,11 +104,11 @@ RESUME_BUTTON_TEXT = "Download CV"
 
 GITHUB_LINK = "https://github.com/clazaro97chosen"
 LINKEDIN_LINK = "https://www.linkedin.com/in/cristian-lazaro-411327111/"
-TWITTER_LINK =  "https://twitter.com/cristianl_py"
+TWITTER_LINK = "https://twitter.com/cristianl_py"
 
 ABOUT_PAGE = "about.html"
 ARCHIVE_PAGE = "archives.html"
-PROJECTS_PAGE = 'projects.html'
+PROJECTS_PAGE = "projects.html"
 READS_PAGE = "reads.html"
 
 
@@ -148,6 +148,12 @@ ABOUT_PAGE_DESCRIPTION = "Lifelong learner"
 ARCHIVE_PAGE_TITLE = "Archive"
 ARCHIVE_PAGE_DESCRIPTION = "Full Archives of CristianTL"
 
+PROJECTS_PAGE_TITLE = "Projects"
+PROJECTS_PAGE_DESCRIPTION = "Project Portfolio of CristianTL"
+
+READS_PAGE_TITLE = "Reads"
+READS_PAGE_DESCRIPTION = "Reads of CristianTL"
+
 # landing(index) page description
 INDEX_PAGE_TITLE = "CristianTL"
 INDEX_PAGE_DESCRIPTION = (
@@ -163,10 +169,10 @@ INDEX_PAGE_DESCRIPTION = (
 
 FOOTER_TITLE = "ABOUT CRISTIAN"
 TEXT_FOOTER = (
-    "Ever since one of my college professors introduced me to the power of programming 2 years ago, I have been passionate about learning technology that lets me build"
-    "cool stuff. Since then I have taken it up programming and data science as a hobby and pretty happpy I did. Some of my technical skills include strong knowledge of"
-    "Python, SQL, Flask, Excel, Tableau and familiarity with Docker, HTML, CSS, and JavaScript (e.g., data cleaning, data analysis, visualizations statistical models,"
-    "and software solutions i.e. full-stack applications)" 
+    "Ever since I realized the power of programming 2 years ago, I have been passionate about learning software development, so I can me build anything I can dream of."
+    "Since then I have taken up programming and data science as a hobby and pretty happpy I did. Some of my technical skills include strong knowledge of "
+    "Python, SQL, Flask, Excel, Tableau and familiarity with Docker, HTML, CSS, and JavaScript. For example, data cleaning, data analysis, visualizations, statistical models, "
+    "and software solutions i.e. full-stack applications)"
 )
 EMAIL = "ctlazaro9728@gmail.com"
 LOCATION = "Shafter, USA"
@@ -180,7 +186,7 @@ PROGRESSBAR_COLOR = "#242e28"
 
 CARD_POSTS = {
     "Natural Language Processing Mastering The Basics": "natural-language-processing-mastering-the-basics",
-    "Introduction to Artificial Neural Networks": "introduction_to_artificial_neural_networks",
+    "Training Deep Neural Networks": "training_deep_neural_networks",
     "Understanding Docker Containers and Images": "understanding_docker_containers_and_images",
 }
 
