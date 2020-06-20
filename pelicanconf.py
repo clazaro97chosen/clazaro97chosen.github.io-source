@@ -169,7 +169,7 @@ INDEX_PAGE_DESCRIPTION = (
 
 FOOTER_TITLE = "ABOUT CRISTIAN"
 TEXT_FOOTER = (
-    "Ever since I realized the power of programming 2 years ago, I have been passionate about learning software development, so I can me build anything I can dream of."
+    "Ever since I realized the power of programming, I have been passionate about learning software development, so I can build anything I can dream of. "
     "Since then I have taken up programming and data science as a hobby and pretty happpy I did. Some of my technical skills include strong knowledge of "
     "Python, SQL, Flask, Excel, Tableau and familiarity with Docker, HTML, CSS, and JavaScript. For example, data cleaning, data analysis, visualizations, statistical models, "
     "and software solutions i.e. full-stack applications)"
