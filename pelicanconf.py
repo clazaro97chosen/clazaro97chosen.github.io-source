@@ -9,7 +9,7 @@ import shutil
 AUTHOR = "CRISTIAN LAZARO"
 AUTHOR_LOWER = "Cristian Lazaro"
 AUTHOR_SHORTENED = "Cristian"
-AUTHOR_SUBTITLE = "Lifelong Learner"
+AUTHOR_SUBTITLE = ""
 SITENAME = "CristianTL"
 SITESUBTITLE = "A view of ideas from my laptop to your device"
 SITE_DESCRIPTION = "A view of ideas from my laptop to your device | by Cristian Lazaro"
@@ -92,7 +92,7 @@ ENABLE_MATHJAX = True
 # just store any meta files in /aegis-jupyter/static/, and you are good.
 PROFILE_PHOTO_FOOTER = "theme/img/profile_photo_footer.jpg"
 PROFILE_PHOTO_ABOUT = "theme/img/profile_photo_about.jpg"
-INDEX_BANNER_IMAGE = "theme/img/index_banner_image.jpg"
+INDEX_BANNER_IMAGE = "theme/img/index_banner_image.jpeg"
 LOGO_WITH_SUBTITLE = (
     "theme/img/logo_with_subtitle.svg"  # logo created at "https://vectr.com/"
 )
@@ -167,12 +167,9 @@ INDEX_PAGE_DESCRIPTION = (
 
 ##############################################################################
 
-FOOTER_TITLE = "ABOUT CRISTIAN"
+FOOTER_TITLE = ""
 TEXT_FOOTER = (
-    "Ever since I realized the power of programming, I have been passionate about learning software development, so I can build anything I can dream of. "
-    "Since then I have taken up programming and data science as a hobby and pretty happy I did. Some of my technical skills include strong knowledge of "
-    "Python, SQL, Flask, Excel, Tableau, and familiarity with Docker, HTML, CSS, and JavaScript. For example, data cleaning, data analysis, visualizations, statistical models, "
-    "and software solutions i.e. full-stack applications) "
+    "\"Learn by doing. Learning something is a journey, experiment and challenge yourself. Take it one step at a time.\""
 )
 EMAIL = "ctlazaro9728@gmail.com"
 LOCATION = "Shafter, USA"
